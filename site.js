@@ -12,17 +12,14 @@ const CV_HTML = `
 <article class="job">
   <h3>RMIT University</h3>
   <p class="role"><span>Technical Support Officer, Footwear Design Studio</span><span>May 2026 – Present</span></p>
-  <p class="what">Run daily operations for the footwear workshop and print lab. Source leathers, footwear outsoles, hardware, adhesives, and dyes, while maintaining and operating post-bed sewing machines, ATOM digital cutting tables, and industrial print equipment. Provide technical equipment support, material guidance, and troubleshooting for workshop users.</p>
 </article>
 <article class="job">
   <h3>Florsheim Shoes</h3>
   <p class="role"><span>Buying Team, Product Development Assistant</span><span>Feb 2025 – Aug 2025</span></p>
-  <p class="what">Prepared detailed footwear specification sheets for suppliers, ensuring accuracy in design, materials, and production requirements. Coordinated and tracked product samples between suppliers and retail stores, supporting alignment between buying, design, and merchandising teams.</p>
 </article>
 <article class="job">
   <h3>Crave Coffee</h3>
   <p class="role"><span>Operations</span><span>Feb 2024 – Jan 2025</span></p>
-  <p class="what">Roasted, blended, and packaged coffee to meet specific client profile requests. Managed incoming orders, kept quality consistent across batches, and helped clients troubleshoot coffee equipment or product issues.</p>
 </article>
 
 <h2>Education</h2>
