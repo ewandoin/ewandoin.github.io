@@ -8,7 +8,6 @@ const CV_HTML = `
   <h3>Freelance / Studio Practice</h3>
   <p class="role"><span>Footwear + Soft Goods Developer</span><span>June 2026 – Present</span></p>
   <p class="note">Key clients &amp; projects: Post Sole Studio, ASGA (TreadLightly), Phix Hospitality</p>
-  <p class="what">Delivered end-to-end development solutions across footwear manufacturing (Post Sole Studio), soft goods redesigns, circular product innovation using footwear waste (ASGA), and custom commercial leather fabrication (Phix Hospitality).</p>
 </article>
 <article class="job">
   <h3>RMIT University</h3>
