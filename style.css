@@ -75,3 +75,33 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--ink);outline-offset
   .project .shell{grid-template-columns:minmax(0,1fr) clamp(220px,18vw,300px)}
   .project.cv-open .shell{grid-template-columns:minmax(0,1fr) clamp(340px,40vw,640px)}
 }
+
+/* Fullscreen image modal overlay */
+.image-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(32, 32, 35, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: zoom-out;
+}
+
+.image-modal img {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+
+/* Make gallery images look clickable */
+.gal .img img {
+  cursor: zoom-in;
+  transition: transform 0.2s ease;
+}
+
+.gal .img img:hover {
+  transform: scale(1.01);
+}
