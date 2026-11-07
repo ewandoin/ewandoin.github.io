@@ -74,3 +74,27 @@ const CV_HTML = `
   const tick = () => { clock.textContent = new Date().toLocaleTimeString('en-GB'); };
   tick(); setInterval(tick, 1000);
 })();
+
+document.addEventListener("DOMContentLoaded", () => {
+  const galleryImages = document.querySelectorAll(".gal img");
+
+  // Create modal element dynamically
+  const modal = document.createElement("div");
+  modal.className = "image-modal";
+  modal.style.display = "none";
+  
+  const modalImg = document.createElement("img");
+  modal.appendChild(modalImg);
+  document.body.appendChild(modal);
+
+  galleryImages.forEach(img => {
+    img.addEventListener("click", () => {
+      modalImg.src = img.src;
+      modal.style.display = "flex";
+    });
+  });
+
+  modal.addEventListener("click", () => {
+    modal.style.display = "none";
+  });
+});
