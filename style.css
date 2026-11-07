@@ -69,3 +69,9 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--ink);outline-offset
 }
 
 @media(prefers-reduced-motion:reduce){.shell,.panel{transition:none}}
+
+/* Thinner info panel on project pages, so more room for the work */
+@media(min-width:801px){
+  .project .shell{grid-template-columns:minmax(0,1fr) clamp(220px,18vw,300px)}
+  .project.cv-open .shell{grid-template-columns:minmax(0,1fr) clamp(340px,40vw,640px)}
+}
