@@ -10,27 +10,64 @@
 <style>
 .gal figure{margin:0}
 .gal figcaption{margin-top:8px;color:var(--grey);font-size:.9em}
-.about p{margin:0 0 14px}
+.detail .about p{margin:0}
+.jrow{display:flex;gap:20px;align-items:flex-start;margin-top:20px}
+.jrow .img{flex:1 1 0;min-width:0}
+@media(max-width:800px){.jrow{flex-direction:column}.jrow .img{flex:none;width:100%}}
 </style></head>
 <body class="project"><div class="shell">
 <main class="left"><div class="bar"><a href="index.html">← Selected work</a></div>
 <div class="head"><h1>ERIK YVON</h1><p class="cat">Footwear Concept Design</p></div>
-<section class="detail" style="margin:8px 0 40px;padding-top:0;border-top:0">
-<div class="facts"><ul class="skills" style="margin-top:0"><li>Sketching</li><li>Illustrator</li><li>Photoshop</li><li>Blender</li></ul></div>
-<div class="about"><p>Developed under the creative guidance of Erik Yvon, this project explores a hypothetical footwear extension for the fashion label. I produced the end-to-end design process, translating trend forecasting and brand DNA into technical 3D reality. The high-fashion stiletto concept embeds motifs central to the label’s storytelling, bold color, queer culture, and Mauritian heritage. Its hero feature is a modular beaded heel, which can be swapped around to various colours. There’s also an accompanying graphic I produced for promotional use.</p><p>The second concept interprets the brand’s identity through a sporty-yet-chic sneaker lens, playing off a classic, versatile Prada silhouette. Designed to transition seamlessly into casual everyday wear, I sketched, designed, and 3D-modeled the silhouette, using Erik’s signature flower motifs as interchangeable, customizable elements. The layered upper features a multi-textured spacer mesh, mocked up in the vibrant, unapologetic color palettes that define the label’s signature apparel.</p></div>
+<div class="gal"><span class="img" data-file="images/erikyvon-hero.jpg"><img src="images/erikyvon-hero.jpg" alt="Stiletto sandal renders showing the modular beaded heel options and woven insole texture" onerror="this.parentNode.classList.add('missing')"></span></div>
+<div class="jrow" data-row><span class="img" data-file="images/erikyvon-promo.jpg"><img src="images/erikyvon-promo.jpg" alt="Promotional graphic for the customisable beaded stiletto heel" onerror="this.parentNode.classList.add('missing')"></span><span class="img" data-file="images/erikyvon-heel.gif"><img src="images/erikyvon-heel.gif" alt="Animated render of the sandal with the beaded heel" onerror="this.parentNode.classList.add('missing')"></span><span class="img" data-file="images/erikyvon-sketches.jpg"><img src="images/erikyvon-sketches.jpg" alt="Sketches of heel and shoe concepts" onerror="this.parentNode.classList.add('missing')"></span></div>
+<section class="detail" style="row-gap:20px">
+<div class="facts"><h2>ERIK YVON</h2><p class="sub">Footwear Concept Design</p>
+<ul class="skills"><li>Sketching</li><li>Illustrator</li><li>Photoshop</li><li>Blender</li></ul></div>
+<div class="about"><p>Developed under the creative guidance of Erik Yvon, this project explores a hypothetical footwear extension for the fashion label. I produced the end-to-end design process, translating trend forecasting and brand DNA into technical 3D reality. The high-fashion stiletto concept embeds motifs central to the label’s storytelling, bold color, queer culture, and Mauritian heritage. Its hero feature is a modular beaded heel, which can be swapped around to various colours. There’s also an accompanying graphic I produced for promotional use.</p></div>
+<div class="about" style="grid-column:1/-1;max-width:none"><p>The second concept interprets the brand’s identity through a sporty-yet-chic sneaker lens, playing off a classic, versatile Prada silhouette. Designed to transition seamlessly into casual everyday wear, I sketched, designed, and 3D-modeled the silhouette, using Erik’s signature flower motifs as interchangeable, customizable elements. The layered upper features a multi-textured spacer mesh, mocked up in the vibrant, unapologetic color palettes that define the label’s signature apparel.</p></div>
 </section>
-<div class="gal">
+<div class="gal" style="margin-top:56px">
   <!-- First row: 2 images -->
   <div class="pair">
-    <figure><span class="img" data-file="images/erikyvon-1.jpg"><img src="images/erikyvon-1.jpg" alt="Render of the shoe showing an interchangeable velcro base" onerror="this.parentNode.classList.add('missing')"></span><figcaption>Render showing interchangeable velcro base</figcaption></figure>
-    <figure><span class="img" data-file="images/erikyvon-2.jpg"><img src="images/erikyvon-2.jpg" alt="Chrome flower velcro attached to the shoe" onerror="this.parentNode.classList.add('missing')"></span><figcaption>Chrome flower velcro attached</figcaption></figure>
+    <figure><span class="img" data-file="images/erikyvon-1.jpg"><img src="images/erikyvon-1.jpg" alt="Render of the sneaker showing an interchangeable velcro base" onerror="this.parentNode.classList.add('missing')"></span><figcaption>Render showing interchangeable velcro base</figcaption></figure>
+    <figure><span class="img" data-file="images/erikyvon-2.jpg"><img src="images/erikyvon-2.jpg" alt="Chrome flower velcro attached to the sneaker" onerror="this.parentNode.classList.add('missing')"></span><figcaption>Chrome flower velcro attached</figcaption></figure>
   </div>
   <!-- Second row: 2 images -->
   <div class="pair">
-    <figure><span class="img" data-file="images/erikyvon-3.jpg"><img src="images/erikyvon-3.jpg" alt="Mock-ups of the concepts in the brand’s colour palettes" onerror="this.parentNode.classList.add('missing')"></span><figcaption>Mock-ups</figcaption></figure>
+    <figure><span class="img" data-file="images/erikyvon-3.jpg"><img src="images/erikyvon-3.jpg" alt="Mock-ups of the sneaker in different colour palettes" onerror="this.parentNode.classList.add('missing')"></span><figcaption>Mock-ups</figcaption></figure>
     <figure><span class="img" data-file="images/erikyvon-4.jpg"><img src="images/erikyvon-4.jpg" alt="Initial sketches of silhouettes and Erik Yvon motifs" onerror="this.parentNode.classList.add('missing')"></span><figcaption>Initial sketches of silhouettes and Erik Yvon motifs</figcaption></figure>
   </div>
 </div>
 <div class="bar end"><a href="bikebag.html">Next project: Custom Bike Bag →</a></div></main>
 <aside id="panel" class="panel"></aside>
-</div><script src="site.js" defer></script><script src="slideshow.js" defer></script></body></html>
+</div>
+<script src="site.js" defer></script>
+<script>
+// Puts the row of small images at one height so the row fills the width (works with photos and GIFs).
+(function () {
+  document.querySelectorAll('[data-row]').forEach(function (row) {
+    var items = [].slice.call(row.children), gap = 20;
+    function ratio(el) {
+      if (el.classList.contains('missing')) return 4 / 3;
+      var m = el.querySelector('img');
+      return m && m.naturalWidth ? m.naturalWidth / m.naturalHeight : 0;
+    }
+    function layout() {
+      var W = Math.floor(row.getBoundingClientRect().width) - 1;
+      if (W < 700) { items.forEach(function (el) { el.style.flex = ''; el.style.width = ''; }); return; }
+      var rs = items.map(ratio);
+      if (rs.some(function (r) { return !r; })) return;
+      var sum = rs.reduce(function (a, b) { return a + b; }, 0);
+      var h = (W - gap * (items.length - 1)) / sum;
+      items.forEach(function (el, i) { el.style.flex = 'none'; el.style.width = Math.floor(rs[i] * h * 10) / 10 + 'px'; });
+    }
+    items.forEach(function (el) {
+      var m = el.querySelector('img');
+      if (m) { m.addEventListener('load', layout); m.addEventListener('error', function () { setTimeout(layout, 0); }); }
+    });
+    window.addEventListener('resize', layout);
+    layout();
+  });
+})();
+</script>
+</body></html>
