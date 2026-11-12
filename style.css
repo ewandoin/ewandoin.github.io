@@ -113,3 +113,10 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--ink);outline-offset
 
 .pic[href="armslength.html"] .img{max-width:420px;margin:0 auto!important}
 .pic[href="leatherfootwear.html"] .img{max-width:500px;margin:0 auto!important}
+
+.bar.end {
+  margin-top: 20px; /* Reduce the top gap if you want it closer to the content above */
+  padding: 0;       /* Removes all internal padding */
+  border: 0;
+  border-top: 1px solid var(--line);
+}
