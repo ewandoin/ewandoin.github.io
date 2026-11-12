@@ -110,3 +110,5 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--ink);outline-offset
   margin: 0;
   padding: 0;
 }
+
+.pic[href="armslength.html"] .img{max-width:420px}
