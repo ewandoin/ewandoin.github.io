@@ -46,7 +46,7 @@ const CV_HTML = `
 (() => {
   const panel = document.getElementById('panel');
   panel.innerHTML = `
-  <header><span>${NAME}</span><span id="clock"></span></header>
+  <header><a href="index.html">${NAME}</a><span id="clock"></span></header>
   <div class="info">
     <p><a href="mailto:${EMAIL}">CONTACT ME</a></p>
     <p class="intro">${INTRO}</p>
