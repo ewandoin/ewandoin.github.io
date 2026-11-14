@@ -39,7 +39,7 @@ const CV_HTML = `
 <h2>Languages</h2>
 <ul class="cols"><li>English (Native)</li><li>German (Basic)</li><li>Mandarin (Basic)</li></ul>
 
-<p style="margin-top:28px"><a href="cv.pdf" download="Ewan_Resume.pdf" style="text-decoration:underline">Download PDF</a>
+<p style="margin-top:28px"><a href="cv.pdf" download="Ewan_Resume.pdf" style="text-decoration:underline">Download PDF</a></p>
 `;
 // -----------------------------------------------------------------------------------
 
@@ -48,7 +48,7 @@ const CV_HTML = `
   panel.innerHTML = `
   <header><span>${NAME}</span><span id="clock"></span></header>
   <div class="info">
-    <p><a href="mailto:${EMAIL}">CONTACT ME/a></p>
+    <p><a href="mailto:${EMAIL}">CONTACT ME</a></p>
     <p class="intro">${INTRO}</p>
     <p style="margin-top:44px"><button type="button" id="cv-open">CV →</button></p>
   </div>
