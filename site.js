@@ -11,7 +11,7 @@ const CV_HTML = `
 </article>
 <article class="job">
   <h3>RMIT University</h3>
-  <p class="role"><span>Technical Support Officer, Footwear Design Studio</span><span>May 2026 – Present</span></p>
+  <p class="role"><span>Technical Support Officer, Fashion + Footwear Design Studio</span><span>May 2026 – Present</span></p>
 </article>
 <article class="job">
   <h3>Florsheim Shoes</h3>
@@ -32,7 +32,7 @@ const CV_HTML = `
 
 <h2>Skills</h2>
 <p class="sub">Technical</p>
-<ul class="cols"><li>Pattern Drafting</li><li>Last Engineering</li><li>Footwear Upper Construction</li><li>Prototyping / Sample Creation</li><li>Tech Packs</li><li>Material Sourcing</li></ul>
+<ul class="cols"><li>Pattern Drafting</li><li>Last Engineering</li><li>Sewing - Footwear, Clothes, Accessories</li><li>Prototyping / Sample Creation</li><li>Tech Packs</li><li>Material Sourcing</li></ul>
 <p class="sub">Software &amp; CAD</p>
 <ul class="cols"><li>Adobe Illustrator</li><li>Adobe Photoshop</li><li>Fusion 360</li><li>Blender</li><li>Rhino</li><li>Keyshot</li><li>ATOM FlashCut</li></ul>
 
