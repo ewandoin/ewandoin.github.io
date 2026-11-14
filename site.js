@@ -32,7 +32,7 @@ const CV_HTML = `
 
 <h2>Skills</h2>
 <p class="sub">Technical</p>
-<ul class="cols"><li>Pattern Drafting</li><li>Last Engineering</li><li>Sewing - Footwear, Clothes, Accessories</li><li>Prototyping / Sample Creation</li><li>Tech Packs</li><li>Material Sourcing</li></ul>
+<ul class="cols"><li>Sewing - Footwear, Clothes, Accessories</li><li>Pattern Drafting</li><li>Last Engineering</li><li>Prototyping / Sample Creation</li><li>Tech Packs</li><li>Material Sourcing</li></ul>
 <p class="sub">Software &amp; CAD</p>
 <ul class="cols"><li>Adobe Illustrator</li><li>Adobe Photoshop</li><li>Fusion 360</li><li>Blender</li><li>Rhino</li><li>Keyshot</li><li>ATOM FlashCut</li></ul>
 
