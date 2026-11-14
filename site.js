@@ -1,7 +1,7 @@
 // ---- Edit your details here. They appear in the right-hand panel on every page. ----
 const NAME = 'me : EWAN M~C';
 const EMAIL = 'ewan.mackaycruise@gmail.com';
-const INTRO = 'hi!<br>im an industrial designer focusing on the world of footwear, fashion, accessories and tactile products. i love to research, prototype and explore materials and colour.';
+const INTRO = 'Hi!<br>I'm an industrial designer focusing on the world of footwear, fashion, accessories and tactile products. I love to research, prototype and explore materials and colour.';
 const CV_HTML = `
 <h2>Experience</h2>
 <article class="job">
@@ -48,7 +48,7 @@ const CV_HTML = `
   panel.innerHTML = `
   <header><span>${NAME}</span><span id="clock"></span></header>
   <div class="info">
-    <p><a href="mailto:${EMAIL}">contact me</a></p>
+    <p><a href="mailto:${EMAIL}">CONTACT ME/a></p>
     <p class="intro">${INTRO}</p>
     <p style="margin-top:44px"><button type="button" id="cv-open">CV →</button></p>
   </div>
