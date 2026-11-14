@@ -1,7 +1,7 @@
 // ---- Edit your details here. They appear in the right-hand panel on every page. ----
 const NAME = 'me : EWAN M~C';
 const EMAIL = 'ewan.mackaycruise@gmail.com';
-const INTRO = 'Hi!<br>I&apos;m an industrial designer focusing on the world of footwear, fashion, accessories and tactile products. I love to research, prototype and explore materials and colour.';
+const INTRO = 'Hi!<br>I’m an industrial designer focusing on the world of footwear, fashion, accessories and tactile products. I love to research, prototype and explore materials and colour.';
 const CV_HTML = `
 <h2>Experience</h2>
 <article class="job">
